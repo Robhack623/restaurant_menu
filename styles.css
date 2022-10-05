@@ -1,0 +1,138 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+}
+
+.title {
+    display: flex;
+    font-family:cursive;
+    font-size: 40px;
+    opacity: 90%;
+}
+
+.course1 {
+    padding-left: 75px;
+    margin-bottom: -20px;
+    font-family: cursive;
+    opacity: 90%;
+}
+
+.course2 {
+    padding-left: 75px;
+    margin-bottom: -20px;
+    font-family: cursive;
+    opacity: 90%;
+}
+
+.course3 {
+    padding-left: 75px;
+    margin-bottom: -20px;
+    font-family: cursive;
+    opacity: 90%;
+}
+
+.menu_description {
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    opacity: 60%;
+}
+
+
+.pictures {
+    width: 400px; 
+    height: 300px;
+}
+.parent {
+    display: flex;
+    list-style: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.child1 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    width: 318px;
+    padding-right: 125px;
+    opacity: 60%;
+}
+
+.child2 h3 {
+    font-size: 25px;
+}
+
+.child2 p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+.child3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    font-size: 20px;
+    opacity: 60%;
+}
+
+@media (max-width: 1000px) {
+    
+    .menu_description br{
+        display: none;
+    }
+    
+    .parent {
+        flex-direction: column;
+    }
+    .child1 {
+        padding: none;
+        align-items: center;
+    }
+    .child2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+        width: 100%;
+        padding-right: 0px;
+    }
+    .child3 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;   
+        align-items:center;
+        font-size: 20px;
+        opacity: 60%;
+    }
+    .course1 {
+        padding-left: 0px;
+        margin-bottom: -20px;
+        font-family: cursive;
+        opacity: 90%;
+    }
+    
+    .course2 {
+        padding-left: 0px;
+        margin-bottom: -20px;
+        font-family: cursive;
+        opacity: 90%;
+    }
+    
+    .course3 {
+        padding-left: 0px;
+        margin-bottom: -20px;
+        font-family: cursive;
+        opacity: 90%;
+    }
+}
